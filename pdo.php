@@ -1,6 +1,6 @@
 <?php
-$pdo = new PDO('mysql:host=sql12.freesqldatabase.com;port=3306;dbname=sql12256794', 
-   'sql12256794', 'r5d6pZ8NWG');
+$pdo = new PDO('mysql:host=sql9.freesqldatabase.com;port=3306;dbname=sql9259027', 
+   'sql9259027', 'ZT1pikwGkL');
 // See the "errors" folder for details...
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
