@@ -19,7 +19,7 @@ elseif ($_POST['make'] == '') {
 else{
 include('pdo.php');
 try {
-$dbh = new PDO("mysql:host=sql12.freesqldatabase.com;dbname=sql12256794",'sql12256794','r5d6pZ8NWG');
+$dbh = new PDO("mysql:host=sql9.freesqldatabase.com;dbname=sql9259027",'sql9259027','ZT1pikwGkL');
 $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // <== add this line
 /*$sql = "INSERT INTO users (make, year, mileage)
 VALUES ('".$_POST["make"]."','".$_POST["year"]."','".$_POST["mileage"]."')";*/
